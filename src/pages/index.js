@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Navbar } from '@material-tailwind/react';
 import Navbars from '../components/Navbars'
+import Searchbar from '@/components/Searchbar';
 
 
 const index = () => {
@@ -8,6 +8,7 @@ const index = () => {
   return (
    <>
     <Navbars  />
+    <Searchbar />
    </>
   )
 }
