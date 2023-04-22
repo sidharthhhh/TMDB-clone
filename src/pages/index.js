@@ -1,10 +1,13 @@
 import React from 'react';
-import {navbar} from '../components/navbar'
+// import { Navbar } from '@material-tailwind/react';
+import Navbars from '../components/Navbars'
+
 
 const index = () => {
+
   return (
    <>
-    <navbar />
+    <Navbars  />
    </>
   )
 }
